@@ -57,7 +57,7 @@ async def start_cmd(client, message):
     else:
         # Start message for private chat
         buttons = [
-            [InlineKeyboardButton(text="Aᴅᴅ ᴍᴇ➕️", url="https://t.me/PainXrobot?startgroup=true")],
+            [InlineKeyboardButton(text="Aᴅᴅ ᴍᴇ➕️", url="https://t.me/TysonGrangerXBot?startgroup=true")],
             [InlineKeyboardButton(text="⚜️Hᴇʟᴘ", callback_data="help_menu")],
             [InlineKeyboardButton(text="🛐Cʀᴇᴀᴛᴏʀ ", url="https://t.me/Ikiyo_kyokasiugetsu"),
              InlineKeyboardButton(text="🧡About ", callback_data="about")],
@@ -70,7 +70,7 @@ async def start_cmd(client, message):
         
         try:
             await message.reply_photo(
-                photo="https://files.catbox.moe/psjzqp.jpg",
+                photo="https://files.catbox.moe/pru1zv.jpg",
                 caption=f"""──「 ƤƛƖƝ 」──
 
 𝐇𝐞𝐥𝐥𝐨, {message.from_user.first_name} !
@@ -90,7 +90,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 import os
 
 # Define the photo URL and text for the alive message
-PHOTO = "https://files.catbox.moe/umdyo3.jpg"
+PHOTO = "https://files.catbox.moe/pru1zv.jpg"
 
 @HgBots.on_message(filters.command("alive") & filters.group)
 async def awake(client, message):
@@ -149,7 +149,7 @@ async def start_cmd(client, message):
     else:
         # Start message for private chat
         buttons = [
-            [InlineKeyboardButton(text="Aᴅᴅ ᴍᴇ➕️", url="https://t.me/PainXrobot?startgroup=true")],
+            [InlineKeyboardButton(text="Aᴅᴅ ᴍᴇ➕️", url="https://t.me/TysonGrangerXBot?startgroup=true")],
             [InlineKeyboardButton(text="⚜️Hᴇʟᴘ", callback_data="help_menu")],
             [InlineKeyboardButton(text="🛐Cʀᴇᴀᴛᴏʀ ", url="https://t.me/Ikiyo_kyokasiugetsu"),
              InlineKeyboardButton(text="🧡About ", callback_data="about")],
@@ -162,7 +162,7 @@ async def start_cmd(client, message):
 
         try:
             await message.reply_photo(
-                photo="https://files.catbox.moe/psjzqp.jpg",
+                photo="https://files.catbox.moe/pru1zv.jpg",
                 caption=f"""──「 ƤƛƖƝ 」──
 
 𝐇𝐞𝐥𝐥𝐨, {message.from_user.first_name} !
