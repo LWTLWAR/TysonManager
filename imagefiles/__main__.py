@@ -14,7 +14,7 @@ LOGGER = logging.getLogger(__name__)
 API_ID = os.getenv("API_ID")
 API_HASH = os.getenv("API_HASH")
 BOT_TOKEN = os.getenv("BOT_TOKEN")
-SUPPORT_CHAT = os.getenv("SUPPORT_CHAT", "hgbotsupportgroup")
+SUPPORT_CHAT = os.getenv("SUPPORT_CHAT", "TEAM_TYSON_SUPPORT")
 BOT_OWNER_ID = int(os.getenv("OWNER_ID", "5147671960"))  # Default to a placeholder; replace as needed
 
 if not (API_ID and API_HASH and BOT_TOKEN):
@@ -39,7 +39,7 @@ async def start_cmd(client, message):
 
         buttons = [
             [InlineKeyboardButton(text="🚑 Support", url=f"https://t.me/{SUPPORT_CHAT}"),
-             InlineKeyboardButton(text="📢 Updates", url="https://t.me/hgbotsupdates")]
+             InlineKeyboardButton(text="📢 Updates", url="https://t.me/TEAM_TYSON")]
         ]
 
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -62,7 +62,7 @@ async def start_cmd(client, message):
             [InlineKeyboardButton(text="🛐Cʀᴇᴀᴛᴏʀ ", url="https://t.me/Ikiyo_kyokasiugetsu"),
              InlineKeyboardButton(text="🧡About ", callback_data="about")],
             [InlineKeyboardButton(text="🚑 Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
-             InlineKeyboardButton(text="📢 Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/hgbotsupdates")]
+             InlineKeyboardButton(text="📢 Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/TEAM_TYSON")]
         ]
 
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -104,8 +104,8 @@ async def awake(client, message):
     
     # Buttons for support and updates
     buttons = [
-        [InlineKeyboardButton("𝐒𝐔𝐏𝐏𝐎𝐑𝐓🙂", url="https://t.me/hgbotsupportgroup"),
-         InlineKeyboardButton("𝐔𝐏𝐃𝐀𝐓𝐄", url="https://t.me/hgbotsupdates")]
+        [InlineKeyboardButton("𝐒𝐔𝐏𝐏𝐎𝐑𝐓🙂", url="https://t.me/TEAM_TYSON_SUPPORT"),
+         InlineKeyboardButton("𝐔𝐏𝐃𝐀𝐓𝐄", url="https://t.me/TEAM_TYSON")]
     ]
     
     # Send the alive message with the photo and buttons
@@ -131,7 +131,7 @@ async def start_cmd(client, message):
         
         buttons = [
             [InlineKeyboardButton(text="🚑 Support", url=f"https://t.me/{SUPPORT_CHAT}"),
-             InlineKeyboardButton(text="📢 Updates", url="https://t.me/hgbotsupdates")]
+             InlineKeyboardButton(text="📢 Updates", url="https://t.me/TEAM_TYSON")]
         ]
 
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -151,10 +151,10 @@ async def start_cmd(client, message):
         buttons = [
             [InlineKeyboardButton(text="Aᴅᴅ ᴍᴇ➕️", url="https://t.me/TysonGrangerXBot?startgroup=true")],
             [InlineKeyboardButton(text="⚜️Hᴇʟᴘ", callback_data="help_menu")],
-            [InlineKeyboardButton(text="🛐Cʀᴇᴀᴛᴏʀ ", url="https://t.me/Ikiyo_kyokasiugetsu"),
+            [InlineKeyboardButton(text="🛐Cʀᴇᴀᴛᴏʀ ", url="https://t.me/King_Of_Alone_Dark_World"),
              InlineKeyboardButton(text="🧡About ", callback_data="about")],
             [InlineKeyboardButton(text="🚑 Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
-             InlineKeyboardButton(text="📢 Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/hgbotsupdates")]
+             InlineKeyboardButton(text="📢 Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/TEAM_TYSON")]
         ]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -184,7 +184,7 @@ async def help_cmd(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         # Group help message
         buttons = [
-            [InlineKeyboardButton(text="Check help in pm", url=f"http://t.me/PainXrobot?start=help_")]
+            [InlineKeyboardButton(text="Check help in pm", url=f"http://t.me/TysonGrangerXBot?start=help_")]
         ]
         reply_markup = InlineKeyboardMarkup(buttons)
         
