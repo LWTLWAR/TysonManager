@@ -59,7 +59,7 @@ async def start_cmd(client, message):
         buttons = [
             [InlineKeyboardButton(text="Aᴅᴅ ᴍᴇ➕️", url="https://t.me/TysonGrangerXBot?startgroup=true")],
             [InlineKeyboardButton(text="⚜️Hᴇʟᴘ", callback_data="help_menu")],
-            [InlineKeyboardButton(text="🛐Cʀᴇᴀᴛᴏʀ ", url="https://t.me/Ikiyo_kyokasiugetsu"),
+            [InlineKeyboardButton(text="🛐Cʀᴇᴀᴛᴏʀ ", url="https://t.me/King_Of_Alone_Dark_World"),
              InlineKeyboardButton(text="🧡About ", callback_data="about")],
             [InlineKeyboardButton(text="🚑 Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
              InlineKeyboardButton(text="📢 Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/TEAM_TYSON")]
