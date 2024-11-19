@@ -1,4 +1,10 @@
 pyrogram 
-tgcrypto
+tgcrypto 
 python-telegram-bot
-openai
+openai==0.28
+telegraph
+telethon
+pillow
+requests
+python-dotenv
+googletrans
