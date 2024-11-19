@@ -46,8 +46,8 @@ async def start_cmd(client, message):
 
         try:
             await message.reply_photo(
-                photo="https://files.catbox.moe/wq68b2.jpg",
-                caption="⚡ƤƛƖƝ⚡ was working perfectly !!",
+                photo="https://files.catbox.moe/evi5o3.jpg",
+                caption="⚡ 𝙏𝙔𝙎𝞞𝙉 𝞛𝘼𝙉𝘼𝙂𝙀𝙍⚡ was working perfectly !!",
                 reply_markup=reply_markup
             )
         except Exception as e:
@@ -71,7 +71,7 @@ async def start_cmd(client, message):
         try:
             await message.reply_photo(
                 photo="https://files.catbox.moe/pru1zv.jpg",
-                caption=f"""──「 ƤƛƖƝ 」──
+                caption=f"""──「  𝙏𝙔𝙎𝞞𝙉 𝞛𝘼𝙉𝘼𝙂𝙀𝙍 」──
 
 𝐇𝐞𝐥𝐥𝐨, {message.from_user.first_name} !
 𝐈 𝐚𝐦 𝐚 🕊𝐀𝐧𝐢𝐦𝐞-𝐭𝐡𝐞𝐦𝐞𝐝 𝐚𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐠𝐫𝐨𝐮𝐩 𝐦𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐛𝐨𝐭 𝐰𝐢𝐭𝐡 𝐦𝐚𝐧𝐲 𝐩𝐨𝐰𝐞𝐫𝐟𝐮𝐥 𝐟𝐞𝐚𝐭𝐮𝐫𝐞𝐬⚔️.
@@ -90,12 +90,12 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 import os
 
 # Define the photo URL and text for the alive message
-PHOTO = "https://files.catbox.moe/pru1zv.jpg"
+animation = "https://files.catbox.moe/hwf2lh.mp4"
 
 @HgBots.on_message(filters.command("alive") & filters.group)
 async def awake(client, message):
     # Alive message text
-    alive_message = f"**♡ I am ƤƛƖƝ Alive and working! ⚡**\n\n"
+    alive_message = f"**♡ I am Alive and working! ⚡**\n\n"
     alive_message += "**♡ I'm working with awesome speed!**\n\n"
     alive_message += "**♡ Version : 2.0 LATEST**\n\n"
     alive_message += "**♡ My Developer :** [HgBots](t.me/HEMANTHGAMING_1K)\n\n"
@@ -109,8 +109,8 @@ async def awake(client, message):
     ]
     
     # Send the alive message with the photo and buttons
-    await message.reply_photo(
-        PHOTO,
+    await message.reply_animation(
+        animation,
         caption=alive_message,
         reply_markup=InlineKeyboardMarkup(buttons)
     )
@@ -138,7 +138,7 @@ async def start_cmd(client, message):
 
         try:
             await message.reply_photo(
-                photo="https://files.catbox.moe/wq68b2.jpg",
+                photo="https://files.catbox.moe/evi5o3.jpg",
                 caption="⚡ƤƛƖƝ⚡ was working perfectly !!",
                 reply_markup=reply_markup
             )
@@ -189,14 +189,14 @@ async def help_cmd(client, message):
         reply_markup = InlineKeyboardMarkup(buttons)
         
         await message.reply_animation(
-            animation="https://files.catbox.moe/70woqw.mp4",
+            animation="https://files.catbox.moe/zpjtsy.mp4",
             caption="Hey, check my help features in PM!",
             reply_markup=reply_markup
         )
     else:
         # Private help message
         help_text = """
-**Hey there, I'm [*⚡ƤƛƖƝ⚡*!](https://files.catbox.moe/umdyo3.jpg)
+**Hey there, I'm [*⚡𝙏𝙔𝙎𝞞𝙉⚡*!](https://files.catbox.moe/zpjtsy.mp4)
 To make me functional, make sure I have enough rights in your group.
 Helpful commands:
 - /start: Starts me!
@@ -216,9 +216,9 @@ List of all available Modules:**
 @HgBots.on_callback_query(filters.regex("about"))
 async def about_callback(client, callback_query):
     about_text = """
-**───「 [ ƤƛƖƝ ](https://t.me/PainXrobot) 」───
+**───「 [ 𝙏𝙔𝙎𝞞𝙉 ](https://t.me/TysonGrangerXBot) 」───
 
-Hey 👋 I'm ⚔️ [ ƤƛƖƝ ](https://t.me/PainXrobot), your friendly Naruto-themed group management bot. 🐉
+Hey 👋 I'm ⚔️ [ 𝙏𝙔𝙎𝞞𝙉 ](https://t.me/TysonGrangerXBot), your friendly Naruto-themed group management bot. 🐉
 
 I'm designed to help you manage your groups with ease and a touch of anime flair! 
 
@@ -234,7 +234,7 @@ I'm designed to help you manage your groups with ease and a touch of anime flair
 """
     buttons = [
         [InlineKeyboardButton(text="✨Developer", url=f"http://t.me/hemanthgaming_1k"),
-         InlineKeyboardButton(text="⚔️Owner", url=f"http://t.me/Ikiyo_kyokasiugetsu")]
+         InlineKeyboardButton(text="⚔️Owner", url=f"http://t.me/King_Of_Alone_Dark_World")]
 ]
     reply_markup = InlineKeyboardMarkup(buttons)
 
@@ -265,7 +265,7 @@ async def help_menu_callback(client, callback_query):
 
         await callback_query.message.edit_text(
             """
-            **Hey there, I'm [*⚡ƤƛƖƝ⚡*!](https://files.catbox.moe/umdyo3.jpg)
+            **Hey there, I'm [*⚡𝙏𝙔𝙎𝞞𝙉⚡*!](https://files.catbox.moe/umdyo3.jpg)
             To make me functional, make sure I have enough rights in your group.
             Helpful commands:
             - /start: Starts me!
@@ -470,7 +470,7 @@ async def ban_cmd(client: Client, message: Message):
             ])
 
             # Send GIF with the ban message and inline buttons
-            gif_url = "https://files.catbox.moe/9xpi10.mp4"  # Replace with actual GIF URL
+            gif_url = "https://files.catbox.moe/7rhbh4.mp4"  # Replace with actual GIF URL
             await client.send_animation(
                 chat_id=message.chat.id,
                 animation=gif_url,
