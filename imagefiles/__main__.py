@@ -75,7 +75,6 @@ async def start_cmd(client, message):
 
 𝐇𝐞𝐥𝐥𝐨, {message.from_user.first_name} !
 𝐈 𝐚𝐦 𝐚 🕊𝐀𝐧𝐢𝐦𝐞-𝐭𝐡𝐞𝐦𝐞𝐝 𝐚𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐠𝐫𝐨𝐮𝐩 𝐦𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐛𝐨𝐭 𝐰𝐢𝐭𝐡 𝐦𝐚𝐧𝐲 𝐩𝐨𝐰𝐞𝐫𝐟𝐮𝐥 𝐟𝐞𝐚𝐭𝐮𝐫𝐞𝐬⚔️.
-• `10` 𝐮𝐬𝐞𝐫𝐬, 𝐚𝐜𝐫𝐨𝐬𝐬 `100` 𝐜𝐡𝐚𝐭𝐬.
 
 ➛ 𝐓𝐚𝐩 "𝐇𝐞𝐥𝐩" 𝐛𝐞𝐥𝐨𝐰 𝐭𝐨 𝐞𝐱𝐩𝐥𝐨𝐫𝐞 𝐦𝐲 𝐟𝐞𝐚𝐭𝐮𝐫𝐞𝐬.""",                
                 reply_markup=reply_markup
@@ -98,7 +97,7 @@ async def awake(client, message):
     alive_message = f"**♡ I am Alive and working! ⚡**\n\n"
     alive_message += "**♡ I'm working with awesome speed!**\n\n"
     alive_message += "**♡ Version : 2.0 LATEST**\n\n"
-    alive_message += "**♡ My Developer :** [HgBots](t.me/HEMANTHGAMING_1K)\n\n"
+    alive_message += "**♡ My Developer :** [⚡𝙏𝙔𝙎𝞞𝙉⚡](t.me/King_Of_Alone_Dark_World)\n\n"
     alive_message += f"**♡ Python Version :** {os.sys.version}\n\n"
     alive_message += "**♡ Telethon Version :** 1.23.0\n\n"
     
@@ -139,7 +138,7 @@ async def start_cmd(client, message):
         try:
             await message.reply_photo(
                 photo="https://files.catbox.moe/evi5o3.jpg",
-                caption="⚡ƤƛƖƝ⚡ was working perfectly !!",
+                caption="⚡𝙏𝙔𝙎𝞞𝙉⚡ was working perfectly !!",
                 reply_markup=reply_markup
             )
         except Exception as e:
@@ -167,7 +166,7 @@ async def start_cmd(client, message):
 
 𝐇𝐞𝐥𝐥𝐨, {message.from_user.first_name} !
 𝐈 𝐚𝐦 𝐚 🕊𝐀𝐧𝐢𝐦𝐞-𝐭𝐡𝐞𝐦𝐞𝐝 𝐚𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐠𝐫𝐨𝐮𝐩 𝐦𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐛𝐨𝐭 𝐰𝐢𝐭𝐡 𝐦𝐚𝐧𝐲 𝐩𝐨𝐰𝐞𝐫𝐟𝐮𝐥 𝐟𝐞𝐚𝐭𝐮𝐫𝐞𝐬⚔️.
-• `10` 𝐮𝐬𝐞𝐫𝐬, 𝐚𝐜𝐫𝐨𝐬𝐬 `100` 𝐜𝐡𝐚𝐭𝐬.
+
 
 ➛ 𝐓𝐚𝐩 "𝐇𝐞𝐥𝐩" 𝐛𝐞𝐥𝐨𝐰 𝐭𝐨 𝐞𝐱𝐩𝐥𝐨𝐫𝐞 𝐦𝐲 𝐟𝐞𝐚𝐭𝐮𝐫𝐞𝐬.""",                
                 reply_markup=reply_markup
